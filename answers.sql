@@ -24,11 +24,6 @@ VALUES (101,	'John Doe',	'Laptop')
        (102,	'Jane Smith',	'Mouse')
        (103,	'Emily Clark',	'Phone')
        
-      
-       
-       
-       
-        
 /*Question 2 Achieving 2NF (Second Normal Form) 🧩
 
 You are given the following table OrderDetails, which is already in 1NF but still contains partial dependencies:
@@ -42,6 +37,16 @@ OrderID	CustomerName	Product	Quantity
 In the table above, the CustomerName column depends on OrderID (a partial dependency), which violates 2NF.
 
 Write an SQL query to transform this table into 2NF by removing partial dependencies. Ensure that each non-key column fully depends on the entire primary key.*/
+
+CREATE TABLE order_details(
+  OrderID int,
+  Quantity int,
+);
+
+INSERT INTO order_details('OrderID', 'Quantity' )
+VALUES (101, 3),
+       (102, 6),
+       (103, 1);
 
 
 
