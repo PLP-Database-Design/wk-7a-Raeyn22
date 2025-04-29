@@ -22,7 +22,7 @@ VALUES (101,	'John Doe',	'Laptop')
        (102,	'Jane Smith', 'Tablet')
        (102,	'Jane Smith', 'Keyboard')
        (102,	'Jane Smith',	'Mouse')
-       (103,	'Emily Clark',	'Phone')
+       (103,	'Emily Clark',	'Phone');
        
 /*Question 2 Achieving 2NF (Second Normal Form) 🧩
 
